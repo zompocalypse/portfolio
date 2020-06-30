@@ -5,23 +5,28 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Jason Stankevich | Software Developer</title>
-
+  <!-- Call normalize before customer stylesheet. used minified version. -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <!-- Call custom stylesheet here -->
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
 	<header>
+    <!-- Top nav with 3 menu items -->
 		<nav>
         <ol class="top-nav-ol">
           <li class="top-nav">
+            <!-- link to intro section -->
             <a href="#intro">intro</a>
           </li>
           <li class="top-nav">
+            <!-- link to about section -->
             <a href="#about">about</a>
           </li>
           <li class="top-nav">
+            <!-- link to contact section -->
             <a href="#contact">contact</a>
           </li>
     </nav>
@@ -31,18 +36,23 @@
 
 		<!-- Introduction -->
 		<section id="intro">
+      <!-- "Hi." is replaced with specific greeting based on time of day. script in script.js handles display -->
       <p class="yellow"><span id="greeting">Hi.</span> &nbsp My name is</p>
+      <!-- h1 for my name to highlight it -->
       <h1>Jason Stankevich</h1>
+      <!-- My tag line -->
       <h2>I like to craft solutions and delight customers.</h2>
       <p>I am an aspiring software developer based out of Gainesville, Florida specializing in building wonderful websites, amazing applications, and anything in between.
-
+      <!-- insert link down to the contact section -->
       <p>Please take a look and feel free to <a href="#contact">Contact Me!</a></p>
     </section>
 
     <!-- About Me -->
     <section id="about">
+      <!-- using border-top class to add horizontal rule to create distinct sections -->
       <h3 class="border-top">About</h3>
         <p>After spending 18 years in customer-facing roles and leading customer-facing teams, I started my journey at <a href="http://thinkful.com">Thinkful</a> to become a software developer.  I have always had a knack for:</p>
+        <!-- unordered list to highlight some of my professional qualities -->
         <ul>
           <li>Truly understanding and being empathetic towards colleagues and customers</li>
           <li>Believing every customer matters</li>
@@ -52,6 +62,7 @@
         <p>I like to see myself as a lifelonger learner and truly believe you learn something from every interaction, whether it is a success of a failure.  Part of the human condition is making connections with other people and, if we are lucky, we can grow from those interactions.</a>
 
         <p>If you're interested in hiring a new developer with a high EQ, leadership experience, and plenty of customer-facing experience, please reach out!</p>
+        <!-- centered image of me to humanize the information -->
         <div class="center">
           <img src="images/profile.jpg" />
         </div>
@@ -59,9 +70,11 @@
 
       <!-- Contact -->
       <section id="contact">
+        <!-- using border-top class to add horizontal rule to create distinct sections -->
         <h3 class="border-top">Contact</h3>
         <p>(I am always looking for new opportunities and exciting projects.)</p>
         <p>Hit me up:</p>
+        <!-- ordered list to show the different ways to find and reach me -->
         <ol>
           <li>Find me on <a href="https://www.linkedin.com/in/jason-stankevich-a798469a">LinkedIn</a></li>
           <li>Follow my <a href="https://github.com/zompocalypse">GitHub</a></li>
@@ -72,9 +85,10 @@
     </main>
 
     <footer>
+      <!-- copy right, year, and my name in the footer -->
       <p>&copy; 2020 :: Jason Stankevich</p>
     </footer>
-    
+    <!-- link to the script.js file -->
     <script src="script.js"></script>
 </body>
 
