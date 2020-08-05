@@ -140,6 +140,18 @@ header nav ul a:hover {
 	padding-bottom: 10px;
 }
 
+/* -------  Form ------- */
+
+form input, 
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
+
 /* -------  Modifier styles ------- */
 
 .border-top {
@@ -173,4 +185,9 @@ header nav ul a:hover {
 		width: 32%;
 		margin-bottom: 2%;
 	}
+
+	form {
+		max-width: 800px;
+		margin: 0 auto;
+	  }
 }
