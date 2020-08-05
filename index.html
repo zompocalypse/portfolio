@@ -15,57 +15,103 @@
 
 	<header>
     <!-- Top nav with 3 menu items -->
-		<nav>
-        <ol class="top-nav-ol">
-          <li class="top-nav">
-            <!-- link to intro section -->
-            <a href="#intro">intro</a>
-          </li>
-          <li class="top-nav">
-            <!-- link to about section -->
-            <a href="#about">about</a>
-          </li>
-          <li class="top-nav">
-            <!-- link to contact section -->
-            <a href="#contact">contact</a>
-          </li>
-        </ol>
+    <div class="js_box">JS</div>
+    <nav>
+      <ul>
+        <li>
+          <a href="#intro">intro</a>
+        </li>
+        <li>
+          <a href="#about">about</a>
+        </li>
+        <li>
+          <a href="#projects">projects</a>
+        </li>
+        <li>
+          <a href="#contact">contact</a>
+        </li>
+      </ol>
     </nav>
-	</header>
-
+  </header>
+  
 	<main>
 
 		<!-- Introduction -->
 		<section id="intro">
-      <!-- "Hi." is replaced with specific greeting based on time of day. script in script.js handles display -->
-      <p class="yellow"><span id="greeting">Hi.</span> &nbsp; My name is</p>
-      <!-- h1 for my name to highlight it -->
-      <h1>Jason Stankevich</h1>
-      <!-- My tag line -->
-      <h2>I like to craft solutions and delight customers.</h2>
-      <p>I am an aspiring software developer based out of Gainesville, Florida specializing in building wonderful websites, amazing applications, and anything in between.
-      <!-- insert link down to the contact section -->
-      <p>Please take a look and feel free to <a href="#contact">Contact Me!</a></p>
+      <div class="group">
+        <div class="item">
+          <!-- "Hi." is replaced with specific greeting based on time of day. script in script.js handles display -->
+          <p><span id="greeting">Hi.</span> &nbsp; My name is</p>
+          <!-- h1 for my name to highlight it -->
+          <h1 class="yellow">Jason Stankevich</h1>
+          <!-- My tag line -->
+          <h2>I like to craft solutions and delight customers.</h2>
+          <p>I am an aspiring software developer based out of Gainesville, Florida specializing in building wonderful websites, amazing applications, and anything in between.
+          <!-- insert link down to the contact section -->
+          <p>Please take a look and feel free to <a href="#contact">Contact Me!</a></p>
+        </div>
+      </div>  
     </section>
 
     <!-- About Me -->
     <section id="about">
-      <!-- using border-top class to add horizontal rule to create distinct sections -->
-      <h3 class="border-top">About</h3>
-        <p>After spending 18 years in customer-facing roles and leading customer-facing teams, I started my journey at <a href="http://thinkful.com">Thinkful</a> to become a software developer.  I have always had a knack for:</p>
-        <!-- unordered list to highlight some of my professional qualities -->
-        <ul>
-          <li>Truly understanding and being empathetic towards colleagues and customers</li>
-          <li>Believing every customer matters</li>
-          <li>Being a leader, not a boss!</li>
-        </ul>
+      <div class="group">
+        <div class="item">
+          <!-- using border-top class to add horizontal rule to create distinct sections -->
+          <h3 class="border-top">About</h3>
+            <p>After spending 18 years in customer-facing roles and leading customer-facing teams, I started my journey at <a href="http://thinkful.com">Thinkful</a> to become a software developer.  I have always had a knack for:</p>
+            <!-- unordered list to highlight some of my professional qualities -->
+            <ul>
+              <li>Truly understanding and being empathetic towards colleagues and customers</li>
+              <li>Believing every customer matters</li>
+              <li>Being a leader, not a boss!</li>
+            </ul>
 
-        <p>I like to see myself as a lifelonger learner and truly believe you learn something from every interaction, whether it is a success or a failure.  Part of the human condition is making connections with other people and, if we are lucky, we can grow from those interactions.</p>
+            <p>I like to see myself as a lifelonger learner and truly believe you learn something from every interaction, whether it is a success or a failure.  Part of the human condition is making connections with other people and, if we are lucky, we can grow from those interactions.</p>
 
-        <p>If you're interested in hiring a new developer with a high EQ, leadership experience, and plenty of customer-facing experience, please reach out!</p>
-        <!-- centered image of me to humanize the information -->
-        <div class="center">
-          <img src="images/profile.jpg" alt="Picture of Jason Stankevich in the smoky mountains"/>
+            <p>If you're interested in hiring a new developer with a high EQ, leadership experience, and plenty of customer-facing experience, please reach out!</p>
+          </div>
+            <!-- centered image of me to humanize the information -->
+          <div class="center item">
+            <img src="images/profile.jpg" alt="Picture of Jason Stankevich in the smoky mountains"/>
+          </div>
+        </div>
+      </section>
+
+       <!-- Projects -->
+      <section id="projects">
+        <h3 class="border-top">Projects</h3>
+        <p>Check out some of my more recent projects.</p>
+        <div class="group-project">
+          <div class="item-project">
+            <a href="#"><img src="https://via.placeholder.com/250?text=project_one.com" alt="placeholder for project screenshot"></a>
+            <a href="#">Link to the repo</a>
+            <p class="project-break">Skills: HTML, CSS, JS</p>
+          </div>
+          <div class="item-project">
+            <a href="#"><img src="https://via.placeholder.com/250?text=project_two.com" alt="placeholder for project screenshot"></a>
+            <a href="#">Link to the repo</a>
+            <p class="project-break">Skills: HTML, CSS, JS</p>
+          </div>
+          <div class="item-project">
+            <a href="#"><img src="https://via.placeholder.com/250?text=project_three.com" alt="placeholder for project screenshot"></a>
+            <a href="#">Link to the repo</a>
+            <p class="project-break">Skills: HTML, CSS, JS</p>  
+          </div>
+          <div class="item-project">
+            <a href="#"><img src="https://via.placeholder.com/250?text=project_four.com" alt="placeholder for project screenshot"></a>
+            <a href="#">Link to the repo</a>
+            <p class="project-break">Skills: HTML, CSS, JS</p>
+          </div>
+          <div class="item-project">
+            <a href="#"><img src="https://via.placeholder.com/250?text=project_five.com" alt="placeholder for project screenshot"></a>
+            <a href="#">Link to the repo</a>
+            <p class="project-break">Skills: HTML, CSS, JS</p>
+          </div>
+          <div class="item-project">
+            <a href="#"><img src="https://via.placeholder.com/250?text=project_six.com" alt="placeholder for project screenshot"></a>
+            <a href="#">Link to the repo</a>
+            <p class="project-break">Skills: HTML, CSS, JS</p></div>
         </div>
       </section>
 
