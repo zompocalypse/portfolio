@@ -156,44 +156,21 @@ header nav ul a:hover {
 	text-align: center;
 }
 
-/* -------  Desktop Menu -------- */
-@media all and (min-width: 960px) {
-	.top-nav {
-		align-items: flex-start;
-		flex-wrap: nowrap;
-		justify-content: flex-end;
+/* -------  Desktop Style -------- */
+@media all and (min-width: 800px) {
+	header {
+		display:flex;
+		justify-content: space-between;
+		padding: 10px 0;
+		margin: 0 10%;
 	}
-	.nav-item {
-		order: 1;
-		position: relative;
-		display: block;
-		width: auto;
-	}
-}
 
-/* -------  max-width 80em ------- */
-@media (max-width: 80em) {
-	h1 { 
-		font-size: 70px;
-		margin: .33em 0;
+	.js_box {
+		margin: 0;
 	}
-	h2 { font-size: 28px; }
-}
-
-/* -------  max-width 70em ------- */
-@media (max-width: 70em) {
-	h1 { 
-		font-size: 60px;
-		margin: .33em 0;
+	
+	.item-project {
+		width: 32%;
+		margin-bottom: 2%;
 	}
-	h2 { font-size: 24px; }
-}
-
-/* -------  max-width 60em ------- */
-@media (max-width: 60em) {
-	h1 { 
-		font-size: 50px;
-		margin: .33em 0;
-	}
-	h2 { font-size: 22px; }
 }
