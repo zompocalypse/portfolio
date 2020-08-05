@@ -140,7 +140,16 @@ header nav ul a:hover {
 	padding-bottom: 10px;
 }
 
-/* -------  Form ------- */
+/* ------- Contact ------- */
+
+#contact ul li {
+	list-style: none;
+}
+
+#contact ul li::before {
+	color: #f8b500;
+	content: "=> ";
+}
 
 form input, 
 form textarea {
@@ -150,6 +159,15 @@ form textarea {
 
 form textarea {
   height: 160px;
+}
+
+button {
+	background-color: #f8b500;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 18px;
+	font-weight: 700;
+	width: 200px;
 }
 
 /* -------  Modifier styles ------- */
@@ -190,4 +208,9 @@ form textarea {
 		max-width: 800px;
 		margin: 0 auto;
 	  }
+	
+	body {
+		max-width: 1000px;
+		margin:	0 auto;
+	}
 }
